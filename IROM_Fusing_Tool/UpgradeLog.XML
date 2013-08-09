@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="IROM_Fusing_Tool">
+</Property><Property Name="方案檔" Value="C:\Documents and Settings\Neil\桌面\iROM_Fusing_Tool_080613\IROM_Fusing_Tool\IROM_Fusing_Tool.sln">
+</Property><Property Name="使用者選項檔" Value="C:\Documents and Settings\Neil\桌面\iROM_Fusing_Tool_080613\IROM_Fusing_Tool\IROM_Fusing_Tool.suo">
+</Property><Property Name="Date" Value="2008年10月21日">
+</Property><Property Name="Time" Value="下午 18:47">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="IROM_Fusing_Tool.sln" Description="檔案已成功備份為 C:\Documents and Settings\Neil\桌面\iROM_Fusing_Tool_080613\IROM_Fusing_Tool\IROM_Fusing_Tool.sln.old">
+</Event><Event ErrorLevel="0" Project="" Source="IROM_Fusing_Tool.suo" Description="檔案已成功備份為 C:\Documents and Settings\Neil\桌面\iROM_Fusing_Tool_080613\IROM_Fusing_Tool\IROM_Fusing_Tool.suo.old">
+</Event><Event ErrorLevel="0" Project="IROM_Fusing_Tool" Source="IROM_Fusing_Tool\IROM_Fusing_Tool.vcproj" Description="不再支援 Web 部署到本機 IIS 伺服器。Web 部署工具已從您的專案設定中移除。">
+</Event><Event ErrorLevel="1" Project="IROM_Fusing_Tool" Source="IROM_Fusing_Tool\IROM_Fusing_Tool.vcproj" Description="此應用程式已更新成包含與 Windows Vista 使用者帳戶控制 (UAC) 功能相關的設定。根據預設，在已啟用 UAC 的 Windows Vista 上執行時，此應用程式會標示為與啟動它的處理序具有相同權限。此標示也會使應用程式無法以虛擬化執行。您可以從專案的屬性頁變更 UAC 相關設定。">
+</Event><Event ErrorLevel="0" Project="IROM_Fusing_Tool" Source="IROM_Fusing_Tool\IROM_Fusing_Tool.vcproj" Description="專案檔已成功備份為 'C:\Documents and Settings\Neil\桌面\iROM_Fusing_Tool_080613\IROM_Fusing_Tool\IROM_Fusing_Tool\IROM_Fusing_Tool.vcproj.8.00.old'。">
+</Event><Event ErrorLevel="0" Project="IROM_Fusing_Tool" Source="IROM_Fusing_Tool\IROM_Fusing_Tool.vcproj" Description="專案升級成功。">
+</Event><Event ErrorLevel="3" Project="IROM_Fusing_Tool" Source="IROM_Fusing_Tool\IROM_Fusing_Tool.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="IROM_Fusing_Tool.sln" Description="方案轉換成功">
+</Event><Event ErrorLevel="3" Project="" Source="IROM_Fusing_Tool.sln" Description="Converted">
+</Event></UpgradeLog>

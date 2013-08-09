@@ -1,0 +1,268 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Korean resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+#ifdef _WIN32
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)\r\n"
+    "LANGUAGE 18, 1\r\n"
+    "#pragma code_page(949)\r\n"
+    "#include ""res\\IROM_Fusing_Tool.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""     // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\IROM_Fusing_Tool.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 235, 55
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About IROM_Fusing_Tool"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "IROM_Fusing_Tool Version 1.0",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2008",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "OK",IDOK,178,7,50,16,WS_GROUP
+END
+
+IDD_IROM_FUSING_TOOL_DIALOG DIALOGEX 0, 0, 286, 164
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "IROM_Fusing_Tool"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "START",ID_BUTTON_START,193,106,67,27
+    EDITTEXT        IDC_EDIT1,19,62,176,16,ES_AUTOHSCROLL
+    PUSHBUTTON      "Browse",IDC_BUTTON_BROWSE,209,62,32,16
+    LTEXT           "Image file to fuse",IDC_STATIC,21,48,104,12
+    EDITTEXT        IDC_EDIT_SIZE,159,25,89,14,ES_AUTOHSCROLL
+    LTEXT           "Drive Size",IDC_STATIC,119,28,33,12
+    LTEXT           "SD/MMC Drive",IDC_STATIC,23,28,47,13
+    EDITTEXT        IDC_EDIT3,123,141,35,16,ES_AUTOHSCROLL | NOT WS_VISIBLE
+    LTEXT           "The image file will be fused from ",IDC_STATIC,17,143,106,12,NOT WS_VISIBLE
+    LTEXT           "to",IDC_STATIC,164,142,10,12,NOT WS_VISIBLE
+    EDITTEXT        IDC_EDIT4,173,141,38,16,ES_AUTOHSCROLL | NOT WS_VISIBLE
+    LTEXT           "on",IDC_STATIC,217,142,10,12,NOT WS_VISIBLE
+    EDITTEXT        IDC_EDIT5,231,141,18,16,ES_AUTOHSCROLL | NOT WS_VISIBLE
+    LTEXT           "Drive",IDC_STATIC,257,142,22,12,NOT WS_VISIBLE
+    COMBOBOX        IDC_COMBO2,77,25,30,30,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT_STARTSECTOR,100,109,55,14,ES_AUTOHSCROLL
+    LTEXT           "Start sector",IDC_STATIC,21,110,64,12
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904e4"
+        BEGIN
+            VALUE "CompanyName", "TODO: <Company name>"
+            VALUE "FileDescription", "TODO: <File description>"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "IROM_Fusing_Tool.exe"
+            VALUE "LegalCopyright", "TODO: (c) <Company name>.  All rights reserved."
+            VALUE "OriginalFilename", "IROM_Fusing_Tool.exe"
+            VALUE "ProductName", "TODO: <Product name>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1252
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_IROM_FUSING_TOOL_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 279
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 157
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_IROM_FUSING_TOOL_DIALOG DLGINIT
+BEGIN
+    IDC_COMBO2, 0x403, 2, 0
+0x0044, 
+    IDC_COMBO2, 0x403, 2, 0
+0x0045, 
+    IDC_COMBO2, 0x403, 2, 0
+0x0046, 
+    IDC_COMBO2, 0x403, 2, 0
+0x0047, 
+    IDC_COMBO2, 0x403, 2, 0
+0x0048, 
+    IDC_COMBO2, 0x403, 2, 0
+0x0049, 
+    IDC_COMBO2, 0x403, 2, 0
+0x004a, 
+    IDC_COMBO2, 0x403, 2, 0
+0x004b, 
+    IDC_COMBO2, 0x403, 2, 0
+0x004c, 
+    IDC_COMBO2, 0x403, 2, 0
+0x004d, 
+    IDC_COMBO2, 0x403, 2, 0
+0x004e, 
+    IDC_COMBO2, 0x403, 2, 0
+0x004f, 
+    IDC_COMBO2, 0x403, 2, 0
+0x0050, 
+    IDC_COMBO2, 0x403, 2, 0
+0x0051, 
+    IDC_COMBO2, 0x403, 2, 0
+0x0052, 
+    IDC_COMBO2, 0x403, 2, 0
+0x0053, 
+    IDC_COMBO2, 0x403, 2, 0
+0x0054, 
+    IDC_COMBO2, 0x403, 2, 0
+0x0055, 
+    IDC_COMBO2, 0x403, 2, 0
+0x0056, 
+    IDC_COMBO2, 0x403, 2, 0
+0x0057, 
+    IDC_COMBO2, 0x403, 2, 0
+0x0058, 
+    IDC_COMBO2, 0x403, 2, 0
+0x0059, 
+    IDC_COMBO2, 0x403, 2, 0
+0x005a, 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_ABOUTBOX            "&About IROM_Fusing_Tool..."
+END
+
+#endif    // Korean resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+LANGUAGE 18, 1
+#pragma code_page(949)
+#include "res\IROM_Fusing_Tool.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"     // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
